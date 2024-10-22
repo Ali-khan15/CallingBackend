@@ -165,7 +165,7 @@ app.post('/call-users', (req, res) => {
 });
 
 // Simple GET route that says "Hello World"
-app.get('/hello', (req, res) => {
+app.get('/', (req, res) => {
   res.send('Hello World');
 });
 
