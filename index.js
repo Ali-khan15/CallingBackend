@@ -27,7 +27,7 @@ mongoose.connect('mongodb+srv://alikhan:Inspiron153000+@calling.oebje.mongodb.ne
   console.log('Connected to MongoDB');
 }).catch(err => console.log(err));
 
-// User Schem
+// User 
 const UserSchema = new mongoose.Schema({
   fullName: String,
   phone: String,
